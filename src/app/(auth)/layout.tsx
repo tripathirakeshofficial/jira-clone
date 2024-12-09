@@ -21,7 +21,7 @@ const AuthLayout = ({ children }: AuthLayoutProps) => {
           <Image src="/logo.svg" height={56} width={152} alt="Logo" />
           <Button asChild variant="secondary">
             <Link href={isSignIn ? "/sign-up" : "/sign-in"}>
-              {isSignIn ? "Sign Up" : "Login"}
+              {isSignIn ? "Sign Up" : "Sign In"}
             </Link>
           </Button>
         </nav>

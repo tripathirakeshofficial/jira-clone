@@ -143,15 +143,15 @@ export const SignUpCard = () => {
       </CardContent>
       <div className="px-7">
         <DottedSeparator />
-        <CardContent className="p-7 flex items-center justify-center">
-          <p>
-            Already have an account?
-            <Link href="/sign-in">
-              <span className="text-blue-700">&nbsp;Sign In</span>
-            </Link>
-          </p>
-        </CardContent>
       </div>
+      <CardContent className="p-7 flex items-center justify-center">
+        <p>
+          Already have an account?
+          <Link href="/sign-in">
+            <span className="text-blue-700">&nbsp;Sign In</span>
+          </Link>
+        </p>
+      </CardContent>
     </Card>
   );
 };
